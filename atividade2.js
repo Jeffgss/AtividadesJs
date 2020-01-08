@@ -16,4 +16,3 @@ rl.question('Me diz um numero ae malandro? ', (resp) => {
         console.log(`${num} x ${i} = ${multi}`);
     }
 });
-
