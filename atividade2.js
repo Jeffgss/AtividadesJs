@@ -9,7 +9,7 @@ const rl = readline.createInterface({
     output: process.stdout
   });
 
-rl.question('Me diz um numero ae malandro? ', (resp) => {
+rl.question('Me diz um número ae malandro? ', (resp) => {
     let num = Number(resp);
     for (let i = 1; i < 11; i++) {
         let multi = num * i;
